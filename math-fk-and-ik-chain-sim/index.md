@@ -1,39 +1,42 @@
-# Engineering Challenge: The Ray Tracer
+# Engineering Challenge: The FK/IK Chain
 
 ## The Goal
-Build a 3D rendering engine from absolute scratch in the language of your choice.
+Build a stable, multi-jointed skeletal chain simulation from scratch that supports both direct simulation (**Forward Kinematics**) and goal-oriented movement (**Inverse Kinematics**). The chain should enforce a fixed segment lengths, with only minor stretch.
 
 ---
 
-## What is Rendering?
-In computer graphics, **rendering** is the process of turning a 3D scene—composed of mathematical points, shapes, and light sources—into a 2D image (the pixels on your screen). 
+## What is Kinematics?
+In robotics and animation, **kinematics** is the geometry of motion. It describes how parts of a system move in relation to one another without yet considering the forces (like gravity or friction) that cause that motion.
 
-Most modern games use "Rasterization," which is fast but relies on "faking" light. Ray tracing, however, simulates the actual physics of how light moves.
+* **Forward Kinematics (FK):** This is the parent/child relationship (shoulder, elbow, wrist). Your simulation calculates where the "end effector" (the hand) lands based on the position and angle of the parent joints.
+* **Inverse Kinematics (IK):** You define a target for the hand. The computer must "solve" the math to determine the necessary joint angles to reach that target. 
 
 ## A Brief History
-For decades, true photorealism was a pipe dream. In **1979**, computer scientist **Turner Whitted** published a groundbreaking paper that changed everything. He proposed that instead of projecting shapes *outward* to the screen, we should follow rays of light *backward* from the eye. This was the birth of **Recursive Ray Tracing**.
+IK was originally a problem for **industrial robotics** in the 1960s—getting a robotic arm to weld a specific point on a car frame. By the 1990s, game developers realized they needed IK to stop a character's feet from sliding through the floor on uneven terrain. Modern physics engines now use **Position Based Dynamics (PBD)** to keep these chains stable and realistic under stress.
 
 ## How It Works (At a High Level)
-Ray tracing mimics the universe. Instead of asking "Where does this triangle go?", the computer asks, "What does the eye see through this pixel?"
+To make a chain move realistically without it "exploding" or jittering, you must respect the physical constraints of the bones.
 
-* **Cast a Ray:** For every pixel on your screen, the engine "shoots" an imaginary line (a ray) into the virtual world.
-* **Find the Hit:** The math checks if that ray hits an object. If it hits a sphere, the engine calculates the exact coordinate of that collision.
-* **Calculate Light:** Once a hit is found, the engine looks at the light sources. It asks: "Is there a clear line to the sun, or is this point in a shadow?"
-* **The Bounce:** If the surface is reflective, the engine "bounces" the ray to see what else is visible, creating realistic reflections.
+* **The Chain:** Represent your arm as a series of points (joints) connected by fixed lengths (bones).
+* **Verlet Integration:** Instead of calculating velocity ($v = v + a \times dt$), you store the *current* and *previous* positions. This makes the simulation significantly more stable when constraints are applied. Do some research, it is well documented.
+* **The Solver (Relaxation):** When you move the "hand" toward a target, the bone lengths will naturally stretch and break. You must perform **Relaxation Steps**—iteratively moving the points back toward their allowed distance until the chain is "satisfied." This steps helps take the excess energy out of the system to keep the system stable, with fixed segment lengths.
+* **Stability:** By running multiple solver iterations per frame, the chain appears rigid and physical rather than stretchy or "mushy."
 
 ---
 
 ## Technical Constraints
-To truly understand the math, you must follow these rules:
-1. **No Shortcuts:** You may **not** use OpenGL, DirectX, Vulkan, or any 3D engines (Unity/Unreal).
-2. **Direct Pixels:** You must use a basic UI library (like Python’s Tkinter, Java Swing, or C++ SDL) to set individual **pixel colors** in a window.
-3. **Pure Math:** You are responsible for calculating ray-object intersections and shading models.
+To master the physics of constraints, you must follow these rules:
+1.  **No Physics Engines:** You may **not** use Box2D, P2, or built-in engine physics (Unity/Unreal).
+2.  **Stable Integration:** Use **Verlet Integration** or a similar displacement-based method. Avoid simple Euler integration.
+3.  **The Solver:** Implement an iterative solver (such as **FABRIK** or **CCD**) to handle the IK movement.
+4.  **Visuals:** Render the joints and bones clearly using simple lines and circles (a 2d library is recommended here). 
 
 ## Example Output
-![Ray Trace Example](image.png)
+![FK/IK Chain Example](anim.gif)
 
 ---
 
 ## Recommended Resources
-* *Ray Tracing in One Weekend* by Peter Shirley
-* *Scratchpixel 2.0* (Online Lessons)
+* *Advanced Character Physics* by Thomas Jakobsen (The definitive paper on Verlet/Constraints)
+* *FABRIK: A fast, iterative solver for the Inverse Kinematics problem* by Aristidou and Lasenby
+* *Coding Math* (YouTube series) - Episodes on Inverse Kinematics
