@@ -53,5 +53,5 @@ To ensure you are "Engineering" and not just "Assembling," you must follow these
 * **Winding Patterns:** Research "dLRK" for Brushless or "Lap Winding" for Brushed.
 * **Material Science:** Check the **Glass Transition Temperature** of your filament. PLA softens at ~60°C; if your coils get hot, your motor will collapse. Consider PETG or ABS for higher heat resistance.
 
-## Example Output
+## Example Build
 ![3D Printed Motor Demo](image.png)
