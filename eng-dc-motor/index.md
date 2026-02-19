@@ -5,7 +5,7 @@ Design (in CAD), 3D print, and build a functional electric motor. You are conver
 
 ---
 
-## Choose Your Path
+## Type of Motor - You Pick
 There are three ways to solve this challenge. Each one shifts the "engineering difficulty" to a different domain:
 
 ### 1. The Brushed Motor (Mechanical Logic)
