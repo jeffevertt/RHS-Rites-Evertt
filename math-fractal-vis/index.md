@@ -32,18 +32,8 @@ To determine if a point on the screen belongs in the set:
 4.  **Color Mapping:** Implement a dynamic color palette. Use the iteration count to create smooth gradients or high-contrast "heat maps."
 
 
-
----
-
-## Technical Milestones
-* **Level 1:** Render a static Mandelbrot set in black and white.
-* **Level 2:** Implement interactive Pan and Zoom controls.
-* **Level 3:** Add "Smooth Coloring" (Renormalization) to remove the distinct bands of color and create silk-like gradients.
-* **Level 4:** Implement a "Julia Mode" where the Julia set is rendered based on the mouse's current position within the Mandelbrot set.
-
 ## Recommended Resources
 * **Complex Number Arithmetic:** Review how to calculate $(x + yi)^2$.
-* **The Beauty of Fractals** by Peitgen and Richter (this is a book).
 * **Coding Train (YouTube):** "The Mandelbrot Set" and "The Julia Set" tutorials.
 * **Smooth Coloring:** Research "Renormalization and the Mandelbrot set" for the log-based coloring formula.
 
