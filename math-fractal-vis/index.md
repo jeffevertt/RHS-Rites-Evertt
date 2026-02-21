@@ -8,13 +8,13 @@ Create an interactive visualization tool that allows users to explore the infini
 ## What is a Fractal?
 A fractal is a geometric shape that is **self-similar**: no matter how far you zoom in, you find smaller versions of the same patterns. The Mandelbrot set is the most famous example, generated from a simple iterative equation using complex numbers.
 
-## The Math: $z_{n+1} = z_n^2 + c$
+## The Math: $z$<sub>n+1</sub> = $z$<sub>n</sub><sup>2</sup> + $c$
 To determine if a point on the screen belongs in the set:
-1.  Map a pixel $(x, y)$ on your screen to a coordinate on the complex plane, treated as $c = x + yi$.
+1.  Map a pixel (x<sub>n</sub>, y<sub>n</sub>) on your screen to a coordinate on the complex plane, treated as $c = x + yi$.
 2.  Start with $z = 0$.
 3.  Iterate: Square $z$ and add $c$.
-4.  **The Escape Rule:** If the magnitude of $z$ ($|z|$) ever exceeds **2**, the point is "escaping" to infinity and is **not** part of the set. 
-5.  **The Iteration Limit:** If the point hasn't escaped after a set number of iterations (e.g., 100 or 1,000), we assume it is "trapped" and color it black.
+4.  **The Escape Rule:** If the magnitude of $z$ ever exceeds **$2$**, the point is "escaping" to infinity and is **not** part of the set. 
+5.  **The Iteration Limit:** If the point hasn't escaped after a set number of iterations (e.g., $100$ or $1,000$), we assume it is "trapped" and color it black.
 
 
 
@@ -33,7 +33,7 @@ To determine if a point on the screen belongs in the set:
 
 
 ## Recommended Resources
-* **Complex Number Arithmetic:** Review how to calculate $(x + yi)^2$.
+* **Complex Number Arithmetic:** Review how to calculate $(x + yi)$<sup>2</sup>.
 * **Coding Train (YouTube):** "The Mandelbrot Set" and "The Julia Set" tutorials.
 * **Smooth Coloring:** Research "Renormalization and the Mandelbrot set" for the log-based coloring formula.
 
