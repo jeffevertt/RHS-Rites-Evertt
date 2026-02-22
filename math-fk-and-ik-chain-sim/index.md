@@ -1,4 +1,4 @@
-# Engineering Challenge: The FK/IK Chain
+# Applied Mathematics: The FK/IK Chain (Forward & Inverse Kinematics)
 
 ## The Goal
 Build a stable, multi-jointed skeletal chain simulation from scratch that supports both direct simulation (**Forward Kinematics**) and goal-oriented movement (**Inverse Kinematics**). The chain should enforce a fixed segment lengths, with only minor stretch.

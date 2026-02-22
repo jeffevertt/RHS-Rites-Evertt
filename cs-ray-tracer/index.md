@@ -1,4 +1,4 @@
-# Engineering Challenge: The Ray Tracer
+# Computer Science: Ray Tracer, from Scratch
 
 ## The Goal
 Build a 3D rendering engine from absolute scratch in the language of your choice.

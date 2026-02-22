@@ -1,4 +1,4 @@
-# Engineering Challenge: The Fractal Explorer
+# EApplied Mathematics: Mandelbrot Fractal Visualizer
 
 ## The Goal
 Create an interactive visualization tool that allows users to explore the infinite complexity of the **Mandelbrot Set** and the **Julia Set**. 

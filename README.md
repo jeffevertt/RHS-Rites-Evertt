@@ -2,11 +2,12 @@
 ...
 
 # QR-Code links
-math-fk-and-ik-chain-sim
-![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/math-fk-and-ik-chain-sim/)
-math-math-fractal-vis
-![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/math-fractal-vis/)
-cs-ray-tracer
-![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/cs-ray-tracer/)
-eng-dc-motor
-![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/eng-dc-motor/)
+![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/math-fk-and-ik-chain-sim/)math-fk-and-ik-chain-sim<br>
+
+![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/math-fractal-vis/)math-math-fractal-vis<br>
+
+![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/math-pid-controller/)math-pid-controller<br>
+
+![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/cs-ray-tracer/)cs-ray-tracer<br>
+
+![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/eng-dc-motor/)eng-dc-motor<br>
