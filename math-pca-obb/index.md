@@ -42,5 +42,5 @@ Looking for more? Identify the **3D pose** of an object within a 2D image. Gener
 > 3. Calculate the Eigenvectors/Eigenvalues of that matrix.
 
 ## Examples (2D and 3D)
-![example-2D](image-2d.png)<br>
-![example-3D](image-3d.png)
+<img src="image-2d.png" width="500" style="border: 4px solid #000000; border-radius: 8px;" alt="Example 2D">
+<img src="image-3d.png" width="400" style="border: 4px solid #000000; border-radius: 8px;" alt="Example 3D">
