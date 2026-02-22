@@ -8,6 +8,8 @@
 
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/math-pid-controller/)math-pid-controller<br>
 
+![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/math-pca-obb/)math-pca-obb<br>
+
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/cs-ray-tracer/)cs-ray-tracer<br>
 
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/eng-dc-motor/)eng-dc-motor<br>
