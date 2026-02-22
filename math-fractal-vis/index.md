@@ -37,5 +37,5 @@ To determine if a point on the screen belongs in the set:
 * **Coding Train (YouTube):** "The Mandelbrot Set" and "The Julia Set" tutorials.
 * **Smooth Coloring:** Research "Renormalization and the Mandelbrot set" for the log-based coloring formula.
 
-## Example Output
-![Fractal Zoom Demo](anim.gif)
+## Animated Example
+![Fractal Animation Example](anim.gif)
