@@ -26,4 +26,4 @@ The goal of this project is to build a functional hand-crank turbine that conver
 * **Visualizing AC:** Check out the [Faraday's Law Simulation](https://phet.colorado.edu/en/simulations/faradays-law) to see a virtual version of this project in action.
 
 ## Example Build
-![3D Printed Turbine](image.png)
+<img src="image.png" width="500" style="border: 4px solid #ffffff; border-radius: 8px;" alt="3D Printed Turbine">
