@@ -14,6 +14,8 @@
 
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/cs-voxel-renderer/)cs-voxel-renderer<br>
 
+![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/cs-computer-vision/)cs-computer-vision<br>
+
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/eng-dc-motor/)eng-dc-motor<br>
 
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/eng-turbine-crank/)eng-turbine-crank<br>
