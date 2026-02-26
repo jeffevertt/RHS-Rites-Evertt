@@ -31,9 +31,7 @@ Pick your poison. Start with the basics and when you have that working, if you w
 3.  **Real-Time Visualization:** Render the cart and pole clearly. Considering adding a live graph of the "Error" (the difference between current angle and vertical).
 
 
-
-[Image of PID controller block diagram]
-
+<img src="pid-block.png" width="400" style="border: 4px solid #000000ff; border-radius: 8px;" alt="PID Controller Block Diagram">
 
 ---
 
@@ -49,4 +47,4 @@ Pick your poison. Start with the basics and when you have that working, if you w
 * **Underactuated Robotics:** MIT OpenCourseWare notes on the Cart-Pole problem.
 
 ## Example Output
-![Animation](anim.gif)
+<img src="anim.gif" width="400" style="border: 4px solid #ffffffff; border-radius: 8px;" alt="Example Animation">
