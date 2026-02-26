@@ -10,7 +10,7 @@
 
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/math-pca-obb/)math-pca-obb<br>
 
-![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/math-wave-eq/)math-wave-eq<br>
+![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/math-wave-eq-sim/)math-wave-eq-sim<br>
 
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/cs-ray-tracer/)cs-ray-tracer<br>
 
