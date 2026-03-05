@@ -12,6 +12,8 @@
 
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/math-wave-eq-sim/)math-wave-eq-sim<br>
 
+![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/math-three-body-problem/)math-three-body-problem<br>
+
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/cs-ray-tracer/)cs-ray-tracer<br>
 
 ![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://jeffevertt.github.io/RHS-Rites-Evertt/cs-voxel-renderer/)cs-voxel-renderer<br>
