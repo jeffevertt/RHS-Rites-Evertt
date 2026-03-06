@@ -1,12 +1,12 @@
-# Hand-Crank Turbine
+# Hand-Crank Generator
 
 ### Project Overview
-The goal of this project is to build a functional hand-crank turbine that converts mechanical motion into electrical energy. You will explore Faraday’s Law of Induction by building your own generator from scratch and lighting a pair of LEDs using raw Alternating Current (AC).
+The goal of this project is to build a functional hand-crank generator that converts mechanical motion into electrical energy. You will explore Faraday’s Law of Induction by building your own generator from scratch and lighting a pair of LEDs using raw Alternating Current (AC).
 
 ### The Requirements
 * **The "Single Strand" Rule:** You must wind your own continuous coil of copper wire. Using a pre-made motor is prohibited; the stator and rotor must be your own design.
 * **Anti-Parallel Circuit:** To avoid the complexity of a rectifier, connect two LEDs in **anti-parallel** (the positive lead of one to the negative lead of the other). This allows you to "see" the AC current as the LEDs take turns firing during each half-cycle.
-* **Mechanical Advantage:** Your design must include a gear system to increase the rotor RPM. A standard hand-crank speed is usually too slow to reach the "strike voltage" of an LED without a mechanical speed booster.
+* **Mechanical Advantage:** Your design must include a gearbox to increase the rotor RPM. A standard hand-crank speed is usually too slow to reach the voltage required to power an LED without a mechanical speed booster (you'll need at least 2 volts).
 
 ---
 
